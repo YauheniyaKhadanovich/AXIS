@@ -1,0 +1,100 @@
+.tab__list {
+    margin-top: 100px;
+    margin-bottom: -2px;
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tab__list li {
+    margin-left: 0;
+    padding: 20px 72px;
+    font-family: 'OpenSans';
+    font-weight: 100;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+.tab__list li:first-child {
+    background-color: white;
+    border: 2px solid rgba(198, 203, 205, 1);
+    border-radius: 10px 10px 0 0;
+    border-bottom: 0;
+}
+
+.tab__info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+
+}
+
+.tab__infoimg {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    gap: 100px;
+    border: 2px solid rgba(198, 203, 205, 1);
+    border-radius: 0 0 10px 10px;
+
+}
+
+.tab__info h3 {
+    font-family: 'OpenSans';
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.tab__info p {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    
+} 
+
+.tab__info button {
+    max-width: 270px;
+    margin-top: 10px;
+    padding: 20px 50px;
+    background-color: rgba(236, 121, 121, 1);
+    border: 0;
+    font-family: 'OpenSans';
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+.tab__info button:hover {
+    max-width: 270px;
+    margin-top: 10px;
+    padding: 20px 50px;
+    background-color: rgba(171, 73, 73, 1);
+    border: 0;
+    font-family: 'OpenSans';
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+.tab__info button:active {
+    max-width: 270px;
+    margin-top: 10px;
+    padding: 20px 50px;
+    background-color: rgba(236, 121, 121, 1);
+    box-shadow: inset 0px 0px 10px #AB4949;
+    border: 0;
+    font-family: 'OpenSans';
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+ 
+.tab__img {
+    width: 470px;
+    height: auto;
+
+}

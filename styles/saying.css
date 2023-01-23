@@ -1,0 +1,122 @@
+.saying__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+.saying__info h2 {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.saying__info h2:after {
+    content: "";
+    display: block;
+    margin: 60px auto 0;
+    width: 170px;
+    height: 2px;
+    background-color: rgba(236, 121, 121, 1);
+}
+.saying__info h5 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+}
+.saying__block {
+    padding: 0;
+}
+.saying__blocklist {
+    display: flex;
+}
+.saying__blocklist ul {
+    width: 100%  
+}
+.saying__block1 {
+    box-sizing: border-box;
+    width: 370px;
+    height: 180px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    padding: 38px 15px 37px 15px;
+    overflow:scroll;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+    margin-bottom: 66px;
+    position: relative;
+}
+.saying__p {
+display: flex;
+gap: 30px;
+}
+.person h4 {
+margin: 16px 0px 16px 0px;
+font-family: 'OpenSans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #000000;
+}
+.person h5 {
+margin-top: 16px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #000000;
+}
+.saying__block1::after{
+}
+
+
+/* .saying__tree {
+    position: relative;
+    top: -40px;
+    left: 60px;
+    display: block;
+    background-color: rgba(226, 226, 226, 1);;
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+}
+
+.saying__tree1 {
+    position: relative;
+    top: -80px;
+    left: 465px;
+    display: block;
+    background-color: rgba(226, 226, 226, 1);;
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+}
+
+.saying__tree2 {
+    position: relative;
+    top: -120px;
+    left: 865px;
+    display: block;
+    background-color: rgba(226, 226, 226, 1);;
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+
+
+ */

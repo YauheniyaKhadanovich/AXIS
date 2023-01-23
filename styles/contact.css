@@ -1,0 +1,121 @@
+.contact__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+
+} 
+
+.contact__info h2 {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+
+}
+
+.contact__info h2:after {
+    content: "";
+    display: block;
+    margin: 60px auto 0;
+    width: 170px;
+    height: 2px;
+    background-color: rgba(236, 121, 121, 1);
+}
+ 
+.contact__info h5 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.form__left {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+.form__left input {
+    border: 0;
+    padding: 15px 30px;
+    
+}
+
+.form__left label {
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+    padding: 30px 10px 10px 0;
+    font-family: 'OpenSans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+    ;
+}
+
+.contact form {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.form__right {
+    margin-top: 23px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.form__right {
+    border: 0;
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+    padding: 20px 10px 10px 0px; 
+    font-family: 'OpenSans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+    ;
+}
+
+.contact__button button{
+    width: 370px;
+    margin: 40px auto;
+    padding: 20px 50px;
+    background-color: rgba(236, 121, 121, 1);
+    border: 0;
+    font-family: 'OpenSans';
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+.contact__button button:hover{
+    width: 370px;
+    margin: 40px auto;
+    padding: 20px 50px;
+    background-color: rgba(171, 73, 73, 1);
+    border: 0;
+    font-family: 'OpenSans';
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+.contact__button button:active{
+    width: 370px;
+    margin: 40px auto;
+    padding: 20px 50px;
+    background-color: rgba(236, 121, 121, 1);
+    box-shadow: inset 0px 0px 10px #AB4949;
+    border: 0;
+    font-family: 'OpenSans';
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+.contact__button {
+    display: flex;
+    justify-content: center;
+}
