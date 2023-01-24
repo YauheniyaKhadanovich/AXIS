@@ -29,11 +29,11 @@
 
 
 .head__info {
-    padding-top: 207px;
+    padding-top: 209px;
     padding-bottom: 190px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: flex-start; */
 }
 
 .head__info h2 {
