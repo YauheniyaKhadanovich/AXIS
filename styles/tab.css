@@ -1,6 +1,6 @@
 .tab__list {
     margin-top: 100px;
-    margin-bottom: -2px;
+    margin-bottom: -3px;
     padding-left: 0;
     display: flex;
     justify-content: flex-start;
@@ -38,7 +38,6 @@
     padding-left: 100px;
     gap: 100px;
     border: 2px solid rgba(198, 203, 205, 1);
-    border-radius: 0 0 10px 10px;
 
 }
 
@@ -94,7 +93,7 @@
 }
  
 .tab__img {
-    width: 470px;
-    height: auto;
+    width: auto;
+    height: 500px;
 
 }
